@@ -183,7 +183,7 @@ public class MemberController {
 	}
 
 	/**
-	 * 查看日志
+	 * 查看日志修改一下
 	 * @param session
 	 * @param model
 	 * @return
