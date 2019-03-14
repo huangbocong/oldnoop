@@ -31,7 +31,7 @@ public class MemberController {
 	private MemberInfoLogServiceImpl infoLogService;
 
 	/**
-	 * 跳转到注册页面
+	 * 跳转到注册页面第一次修改
 	 * 
 	 * @return
 	 */
