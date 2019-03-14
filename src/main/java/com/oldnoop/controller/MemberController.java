@@ -192,7 +192,10 @@ public class MemberController {
 	public String logs(HttpSession session,Model model) {
 		Member m = (Member) session.getAttribute("member");
 		if(m==null){
+
 			return "redirect:/member/toLogin";
+
+
 		}
 		Long mid = m.getId();
 		List<MemberLoginLog> logs = loginLogService.findByMid(mid);
